@@ -1,66 +1,53 @@
 # NeetPlan
+[![Static Badge](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+
+![screenshot](./assets/Screenshot.png)
+
+## Description
+This web app can help you organize your daily plans, get weather and other information, and it has room to grow to implement even more functionality to help you manage your life.
+
 
 ## Table of Contents
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Technologies Used](#technologies-used)
+- [Questions](#questions)
 
-Project Overview
 
-Group Members
+## Usage
+To use, navigate to the deployed site: [https://daily-planner-xw7d.onrender.com/](https://daily-planner-xw7d.onrender.com/). From there, users can sign up, or log in if they've already done so. From the homepage, users can see the weather in their area if they've provided a US area code, are provided with fun facts, and can see a list of any events they've scheduled for today. In the navigation there are options to view a calendar, create new events to keep track of, view and alter existing events, and change your user settings, as well as log out.
 
-Features
-
-Technologies Used
-
-Installation
-
-Contributions
-
-License
-
-Contact
-
-## Project Overview
-
-The NeetPlan is a modern, web-based application that simplifies task management through an intuitive and visually appealing interface. Users can easily create, prioritize, and categorize tasks, set deadlines, receive reminders, track progress over time and be updated with their current location and local weather.
-
-By integrating features like habit tracking, collaboration, and data analytics, the app will serve as an all-in-one productivity tool for individuals and teams in the future.
-
-## Group Members
-
-Jarvis Young (GitHub: Jarvisyoung24)
-
-Sergio Torres (GitHub: SirrBarnes)
-
-Usama Badar (GitHub: usamabadarr)
-
-Keith Claas (GitHub: kc-claas)
-
-## Features
-
-Technologies Used:
-
-Frontend: HTML, CSS, JavaScript, and TypeScript
-
-Backend: JavaScript, TypeScript, React, NodeJS, Postgres, Web APIs, and JWT
-
-Database: Postgres
-
-## Installation
-
-To run the Daily Planner locally, follow these steps:
-
-Clone the repository:
-
-`https://github.com/kc-claas/NeetPlan.git`
-
-Create an account or log in to manage your tasks.
-
-## Contributions 
-This project is a group effort, and contributions are welcome! 
-
-If you have suggestions for improvements or bug fixes, please create an issue or reach out to your group members.
+For the weather section to operate, users need to provide a valid US zip code when they sign up or update their user settings. For event dates to be linked into the calendar, they need to be entered in a mm/dd/yyyy format.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This application is covered under the [MIT](./LICENSE) license
+
+## Contributors
+- Jarvis Young - [jarvisyoung24](https://github.com/jarvisyoung24)
+- Sergio Torres - [SirrBarnes](https://github.com/SirrBarnes)
+- Usama Badar - [usamabadarr](https://github.com/usamabadarr)
+- Keith Claas - [kc-claas](https://github.com/kc-claas)
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React
+- PostgreSQL
+- APIs
+- Bootstrap
+- Sequelize
+- NodeJS
+- JWTs
+- openweatherAPI
+- api ninja
+
+## Questions
+Github: [kc-claas](https://github.com/kc-claas)
+
+For additional questions, contact keithclaas@email.com
+
 
 ## Contact
 For inquiries or feedback, please reach out to any of the group members listed above.
